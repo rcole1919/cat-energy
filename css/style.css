@@ -1232,7 +1232,7 @@
 
 .page-footer {
   min-width: 320px;
-  height: 150px;
+  height: 236px;
   background-color: #f2f2f2; }
 
 .page-footer__logo {
@@ -1337,6 +1337,7 @@
 
 @media (min-width: 768px) {
   .page-footer {
+    height: 150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

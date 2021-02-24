@@ -11,3 +11,7 @@ close.addEventListener("click", function (evt) {
   popup.classList.toggle("site-list--close");
   close.classList.toggle("page-header__toggle--open");
 });
+
+var dz = new Dropzone('div#dz', {
+        url: "/file/post"
+      });

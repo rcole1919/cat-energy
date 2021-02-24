@@ -12,6 +12,7 @@ close.addEventListener("click", function (evt) {
   close.classList.toggle("page-header__toggle--open");
 });
 
+Dropzone.autoDiscover = false;
 var dz = new Dropzone('div#dz', {
   url: "/file/post",
   acceptedFiles: [

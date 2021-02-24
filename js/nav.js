@@ -15,7 +15,6 @@ close.addEventListener("click", function (evt) {
 Dropzone.autoDiscover = false;
 var dz = new Dropzone('div#dz', {
   url: "/file/post",
-  acceptedFiles: [
-    'image/*;capture=camera'
-]
+  capture: false,
+  acceptedFiles: 'image/*;capture=camera'
 });

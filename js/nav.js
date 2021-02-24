@@ -13,5 +13,10 @@ close.addEventListener("click", function (evt) {
 });
 
 var dz = new Dropzone('div#dz', {
-        url: "/file/post"
-      });
+  url: "/file/post",
+  acceptedFiles: [
+    '.jpg',
+    '.jpeg',
+    '.png'
+]
+});

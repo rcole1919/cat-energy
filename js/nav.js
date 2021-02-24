@@ -16,8 +16,6 @@ Dropzone.autoDiscover = false;
 var dz = new Dropzone('div#dz', {
   url: "/file/post",
   acceptedFiles: [
-    '.jpg',
-    '.jpeg',
-    '.png'
+    'image/*;capture=camera'
 ]
 });
